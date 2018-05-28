@@ -3,6 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <title>Choose Your Own Static Comp</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600" rel="stylesheet"> 
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
 </head>
 <body>
@@ -12,49 +14,65 @@
       <a href=#>Why Slack?</a>
       <a href=#>Pricing</a>
       <a href=#>About Us</a>
-      <a href=#>Your Workspaces</a>
+      <a id="workspaces-btn" href=#>Your Workspaces</a>
     </nav>
   </header>
   <main>
-    <h2>Try Slack with your team for free</h2>
-    <a href="#">Get Started</a>
+    <div id="call-to-action">
+      <h2>Try Slack with your team for free</h2>
+      <a href="#">GET STARTED</a>
+    </div>
+    <div class='information-container'>
+      <section class="footer-column">
+        <h5>COMPANY</h5>
+        <a href="#">About Us</a>
+        <a href="#">Careers</a>
+        <a href="#">Blog</a>
+        <a href="#">Press</a>
+        <a href="#">Brand Guidelines</a>
+      </section>
+      <section class="footer-column">
+        <h5>PRODUCT</h5>
+        <a href="#">Why Slack?</a>
+        <a href="#">Enterprise</a>
+        <a href="#">Customer Stories</a>
+        <a href="#">Pricing</a>
+        <a href="#">Security</a>
+      </section>
+      <section class="footer-column">
+        <h5>RESOURCES</h5>
+        <a href="#">Download</a>
+        <a href="#">Help Center</a>
+        <a href="#">Guides</a>
+        <a href="#">Partners</a>
+        <a href="#">Events</a>
+        <a href="#">App Directory</a>
+        <a href="#">API</a>
+        <a href="#">Gartner Report</a>
+        <a href="#">eBooks</a>
+      </section>
+      <section class="footer-column">
+        <h5>EXTRAS</h5>
+        <a href="#">Podcast</a>
+        <a href="#">Slack Shop</a>
+        <a href="#">Slack at Work</a>
+        <a href="#">Slack Fund</a>
+      </section>
+    </div>
   </main>
   <footer>
-    <section class="footer-column">
-      <h5>COMPANY</h5>
-      <a href="#">About Us</a>
-      <a href="#">Careers</a>
-      <a href="#">Blog</a>
-      <a href="#">Press</a>
-      <a href="#">Brand Guidelines</a>
-    </section>
-    <section class="footer-column">
-      <h5>PRODUCT</h5>
-      <a href="#">Why Slack?</a>
-      <a href="#">Enterprise</a>
-      <a href="#">Customer Stories</a>
-      <a href="#">Pricing</a>
-      <a href="#">Security</a>
-    </section>
-    <section class="footer-column">
-      <h5>RESOURCES</h5>
-      <a href="#">Download</a>
-      <a href="#">Help Center</a>
-      <a href="#">Guides</a>
-      <a href="#">Partners</a>
-      <a href="#">Events</a>
-      <a href="#">App Directory</a>
-      <a href="#">API</a>
-      <a href="#">Gartner Report</a>
-      <a href="#">eBooks</a>
-    </section>
-    <section class="footer-column">
-      <h5>EXTRAS</h5>
-      <a href="#">Podcast</a>
-      <a href="#">Slack Shop</a>
-      <a href="#">Slack at Work</a>
-      <a href="#">Slack Fund</a>
-    </section>
+    <div id="business-links">
+      <a href="#">Status</a>
+      <a href="#">Privacy &amp; Terms</a>
+      <a href="#">Contact Us</a>
+    </div>
+    <div id="social-links">
+      <span class="flag">🇺🇸</span>
+      <a href="#">English (US)</a>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-facebook-f"></i>
+      <i class="fab fa-youtube"></i>
+    </div>
   </footer>
 </body>
 </html>
